@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Collection</title>
+
+    <!-- 
+    - favicon
+  -->
+
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+
+
+            <h1 class="logo">MS Collection</h1>
+
+
+
+            <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+
+                    <h1 class="logo">MS Collection</h1>
+
+                    <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#category" class="navbar-link">Category</a>
+                    </li>
+
+                    <li>
+                        <a href="#shop" class="navbar-link">Shop</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#contact" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="hero" id="home"
+                style="background-image: url('https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg?size=626&ext=jpg&ga=GA1.1.867424154.1713657600&semt=ais')">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">Fashion Everyday</p>
+
+                        <h2 class="h1 hero-title">Give Cutom Orders</h2>
+
+                        <button class="btn btn-primary" onclick="scrollToContact()">Contact Us</button>
+
+                        <script>
+                            function scrollToContact() {
+                                // Scroll to the contact section
+                                document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+                            }
+                        </script>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #SERVICE
+      -->
+
+            <section class="service">
+                <div class="container">
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-1.svg" alt="Service icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Free Shipping</p>
+
+                                <p class="service-item-text">On All Order</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-2.svg" alt="Service icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Easy Returns</p>
+
+                                <p class="service-item-text">30 Day Returns Policy</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-3.svg" alt="Service icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Secure Payment</p>
+
+                                <p class="service-item-text">100% Secure Gaurantee</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-4.svg" alt="Service icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Special Support</p>
+
+                                <p class="service-item-text">24/7 Dedicated Support</p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #CATEGORY
+      -->
+
+
+
+            <section class="section category" id="category">
+                <div class="container">
+
+                    <ul class="category-list">
+
+                        <li class="category-item">
+                            <figure class="category-banner">
+                                <img src="" alt="Sunglass & eye" loading="lazy" width="510" height="600" class="w-100">
+                            </figure>
+
+                            <p class="btn btn-secondary">Product Category
+                            <p>
+                        </li>
+
+                        <li class="category-item">
+                            <figure class="category-banner">
+                                <img src="" alt="Active & outdoor" loading="lazy" width="510" height="600"
+                                    class="w-100">
+                            </figure>
+
+                            <p class="btn btn-secondary">Product Category
+                            <p>
+                        </li>
+
+                        <li class="category-item">
+                            <figure class="category-banner">
+                                <img src="" alt="Winter wear" loading="lazy" width="510" height="600" class="w-100">
+                            </figure>
+
+                            <p class="btn btn-secondary">Product Category
+                            <p>
+                        </li>
+
+                        <li class="category-item">
+                            <figure class="category-banner">
+                                <img src="" alt="Exclusive footwear" loading="lazy" width="510" height="600"
+                                    class="w-100">
+                            </figure>
+
+                            <p class="btn btn-secondary">Product Category
+                            <p>
+                        </li>
+
+                        <li class="category-item">
+                            <figure class="category-banner">
+                                <img src="" alt="Jewelry" loading="lazy" width="510" height="600" class="w-100">
+                            </figure>
+
+                            <p class="btn btn-secondary">Product Category
+                            <p>
+                        </li>
+
+                        <li class="category-item">
+                            <figure class="category-banner">
+                                <img src="" alt="Sports cap" loading="lazy" width="510" height="600" class="w-100">
+                            </figure>
+
+                            <p class="btn btn-secondary">Product Category
+                            <p>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #PRODUCT
+      -->
+
+            <section class="section product" id="shop">
+                <div class="container">
+
+                    <h2 class="h2 section-title">Products and Services</h2>
+
+
+                    <ul class="product-list">
+
+                        <li>
+                            <div class="product-card">
+
+                                <figure class="card-banner">
+
+
+                                    <img src="https://t3.ftcdn.net/jpg/04/04/07/38/360_F_404073874_4LsRDEOqgq5srz0RKkTYaEl4BDWw6nM1.jpg"
+                                        alt="Product Image" loading="lazy" width="800" height="1034" class="w-100">
+
+
+                                    <div class="card-badge red"> -25%</div>
+
+                                    <div class="card-actions">
+
+
+
+                                        <button class="card-action-btn cart-btn">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                                            <a href="#contact">Place Order to Made</a>
+                                        </button>
+
+
+
+                                    </div>
+
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4 card-title">
+                                        Product name
+                                    </h3>
+
+                                    <div class="card-price">
+                                        <data value="48.75">&pound;48.75</data>
+
+                                        <data value="65.00">&pound;65.00</data>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="product-card">
+
+                                <figure class="card-banner">
+
+
+                                    <img src="https://t3.ftcdn.net/jpg/04/04/07/38/360_F_404073874_4LsRDEOqgq5srz0RKkTYaEl4BDWw6nM1.jpg"
+                                        alt="Fit Twill Shirt for Woman" loading="lazy" width="800" height="1034"
+                                        class="w-100">
+
+
+                                    <div class="card-badge green"> New</div>
+
+                                    <div class="card-actions">
+
+
+
+                                        <button class="card-action-btn cart-btn">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                                            <a href="#contact">Place Order to Made</a>
+                                        </button>
+
+
+
+                                    </div>
+
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4 card-title">
+                                        Product name
+                                    </h3>
+
+                                    <div class="card-price">
+                                        <data value="62.00">&pound;62.00</data>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="product-card">
+
+                                <figure class="card-banner">
+
+
+                                    <img src="https://t3.ftcdn.net/jpg/04/04/07/38/360_F_404073874_4LsRDEOqgq5srz0RKkTYaEl4BDWw6nM1.jpg"
+                                        alt="Product Image" loading="lazy" width="800" height="1034" class="w-100">
+
+
+                                    <div class="card-badge red"> -25%</div>
+
+                                    <div class="card-actions">
+
+
+
+                                        <button class="card-action-btn cart-btn">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                                            <a href="#contact">Place Order to Made</a>
+                                        </button>
+
+
+
+                                    </div>
+
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4 card-title">
+                                        Product name
+                                    </h3>
+
+                                    <div class="card-price">
+                                        <data value="48.75">&pound;48.75</data>
+
+                                        <data value="65.00">&pound;65.00</data>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+                        <li>
+                            <div class="product-card">
+
+                                <figure class="card-banner">
+
+
+                                    <img src="https://t3.ftcdn.net/jpg/04/04/07/38/360_F_404073874_4LsRDEOqgq5srz0RKkTYaEl4BDWw6nM1.jpg"
+                                        alt="Product Image" loading="lazy" width="800" height="1034" class="w-100">
+
+
+                                    <div class="card-badge red"> -25%</div>
+
+                                    <div class="card-actions">
+
+
+
+                                        <button class="card-action-btn cart-btn">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                                            <a href="#contact">Place Order to Made</a>
+                                        </button>
+
+
+
+                                    </div>
+
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h4 card-title">
+                                        Product name
+                                    </h3>
+
+                                    <div class="card-price">
+                                        <data value="48.75">&pound;48.75</data>
+
+                                        <data value="65.00">&pound;65.00</data>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <button class="btn btn-outline"><a href="#contact">Place Order to Made</a></button>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 
+        - #NEWSLETTER
+      -->
+
+            <section class="section newsletter" id="contact">
+                <div class="container">
+
+                    <div class="newsletter-card" style="background-image: url('./assets/images/newsletter-bg.png')">
+
+                        <h2 class="card-title">Get in Touch/<br>Place Your Order</h2>
+
+                        <p class="card-text">
+                            Enter your Details to Place Order for custum Items/Products just for you..
+                        </p>
+
+                        <form id="myForm" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="0c8944fb-f3ae-4e84-bc14-5d66aaa527b6">
+
+                            <input type="text" name="name" placeholder="Name" required><br>
+                            <input type="text" name="class" placeholder="Required Product Name" required><br>
+                            <input type="text" name="size" placeholder="Size (if any)"><br>
+                            <input type="tel" name="phone" placeholder="Phone No." required><br>
+                            <input type="tel" name="secondary_phone" placeholder="Secondary Phone No. (optional)"><br>
+                            <input type="email" name="email" placeholder="Email" required><br>
+                            <textarea name="residency" placeholder="Residency/Address" required></textarea><br>
+                            <button style="text-align: center;" type="submit" id="submitButton">Submit Form</button>
+                        </form>
+                        <div id="successMessage" style="display: none;">
+                            Thanks for choosing our store, your Custom Order have been placed, however our Team
+                            Member will contact you soon for the conformation of your order (Maximum Wait Time Period is
+                            24 Hours). Thank you for your patience & choice.
+                        </div>
+                    </div>
+
+
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <h1 class="logo">MS Collection</h1>
+
+
+                    <p class="footer-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ullam ad veniam recusandae
+                        quas cupiditate est ipsam incidunt eveniet quos!
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                
+
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Connect for Support/Enquiry</p>
+                    </li>
+                    <br>
+
+                    <li>
+                        <p class="footer-link">Add: <a href="https://maps.app.goo.gl/iAQJEL5yEUmQavw67" target="_blank">000 PLOT NO., XYZ COLONY MARKET, JIND, HARYANA, INDIA</a></p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Call: <a href="7015956519">7015956519</a></p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Mail: <a href="mailto:123@info">sumit.ms.collection@info</a></p>
+                    </li>
+
+                    </ul>
+
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Qualities</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">High-quality craftsmanship</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Customization options</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Continuous improvement</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Transparency in processes</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Strong community engagement</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Innovative technology integration</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Environmentally friendly practices</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Respect for cultural diversity</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Employee welfare programs</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-link">Commitment to social responsibility</p>
+                    </li>
+
+                </ul>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2024 MS Collection<br>All Rights Reserved
+                </p>
+
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
